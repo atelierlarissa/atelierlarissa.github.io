@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://localhost:1313/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/buy/</loc>
+  </url><url>
+    <loc>http://localhost:1313/nature/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/forestair/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/landscape/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/nature/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/urban/</loc>
+  </url>
+</urlset>
