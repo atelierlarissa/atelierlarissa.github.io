@@ -23,11 +23,19 @@
 <meta property="og:site_name" content="Atelier da Lari" />
 
   
-  <link rel="stylesheet" href="/css/main.min.39871f3fababd437ee0fdafafb2315dae354d50adb8fcd494a968323d9526a24.css" />
+  <link rel="stylesheet" href="/css/main.min.fd9fbd7e764982df20e2a2cf10e7f7f3e7adadac313721bb0ccc9a3dd8882c05.css" />
   
   
   <script src="/js/main.803f06047bab3f1186da5b17482cbd541cf367724430153787db8e3a572a716e.js" defer></script>
-</head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-906KFXZZX6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-906KFXZZX6');
+</script></head>
 
   <body>
     <header>
@@ -99,26 +107,26 @@
       langEnElements.forEach(element => element.style.display = 'block');
       langPtElements.forEach(element => element.style.display = 'none');
       localStorage.setItem('language', 'en');
-      document.getElementById('language-toggle').textContent = 'PT';
+      document.getElementById('language-toggle').textContent = 'PT'; 
     } else {
       langEnElements.forEach(element => element.style.display = 'none');
       langPtElements.forEach(element => element.style.display = 'block');
       localStorage.setItem('language', 'pt');
-      document.getElementById('language-toggle').textContent = 'EN';
+      document.getElementById('language-toggle').textContent = 'EN'; 
     }
   }
 
   
   window.onload = function() {
-    const savedLanguage = localStorage.getItem('language') || 'pt';
-    switchLanguage(savedLanguage);
+    const savedLanguage = localStorage.getItem('language') || 'pt'; 
+    switchLanguage(savedLanguage); 
   };
 
   
   document.getElementById('language-toggle').addEventListener('click', function() {
-    const currentLanguage = localStorage.getItem('language') || 'pt';
-    const newLanguage = currentLanguage === 'pt' ? 'en' : 'pt';
-    switchLanguage(newLanguage);
+    const currentLanguage = localStorage.getItem('language') || 'pt'; 
+    const newLanguage = currentLanguage === 'pt' ? 'en' : 'pt'; 
+    switchLanguage(newLanguage); 
   });
 </script>
 
@@ -178,7 +186,9 @@
   <section class="collections">
     <h2 class="lang-en">Explore My Collections</h2>
     <h2 class="lang-pt">Explore Minhas Coleções</h2>
-
+	
+	
+    <hr class="stylized-divider" />
     
     <div class="collection">
       <h3 class="lang-en">Forest Air Collection</h3>
@@ -193,7 +203,8 @@
                 <a href="/images/forest/forestair1.jpg" data-pswp-src="/images/forest/forestair1.jpg" data-pswp-width="1920" data-pswp-height="1080">
                   <img class="slick-image" src="/images/forest/forestair1.jpg" alt="forestair1.jpg" />
                 </a>
-                <div class="caption">A serene forest landscape, inspired by nature's quiet beauty.</div>
+			  <figcaption class="caption lang-en">A serene forest landscape, inspired by nature's quiet beauty.</figcaption>
+			  <figcaption class="caption lang-pt">Uma paisagem de floresta serena, inspirada na tranquila beleza da natureza.</figcaption>
               </div>
             </div>
           
@@ -205,7 +216,8 @@
                 <a href="/images/forest/forestair2.jpg" data-pswp-src="/images/forest/forestair2.jpg" data-pswp-width="1920" data-pswp-height="1080">
                   <img class="slick-image" src="/images/forest/forestair2.jpg" alt="forestair2.jpg" />
                 </a>
-                <div class="caption">A serene forest landscape, inspired by nature's quiet beauty.</div>
+			  <figcaption class="caption lang-en">A serene forest landscape, inspired by nature's quiet beauty.</figcaption>
+			  <figcaption class="caption lang-pt">Uma paisagem de floresta serena, inspirada na tranquila beleza da natureza.</figcaption>
               </div>
             </div>
           
@@ -217,7 +229,8 @@
                 <a href="/images/forest/forestair3.jpg" data-pswp-src="/images/forest/forestair3.jpg" data-pswp-width="1920" data-pswp-height="1080">
                   <img class="slick-image" src="/images/forest/forestair3.jpg" alt="forestair3.jpg" />
                 </a>
-                <div class="caption">A serene forest landscape, inspired by nature's quiet beauty.</div>
+			  <figcaption class="caption lang-en">A serene forest landscape, inspired by nature's quiet beauty.</figcaption>
+			  <figcaption class="caption lang-pt">Uma paisagem de floresta serena, inspirada na tranquila beleza da natureza.</figcaption>
               </div>
             </div>
           
@@ -463,9 +476,9 @@
 
 
   <section>
-    © Your Name
+    © Larissa Nunes da Costa
     
-      <a href="https://github.com/nicokaiser/hugo-theme-gallery/">
+      <a href="https://github.com/ggoetten">
         GitHub
       </a>
     
