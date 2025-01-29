@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Urban on Atelier da Lari</title>
-    <link>http://localhost:1313/categories/urban/</link>
+    <link>https://your-domain.com/categories/urban/</link>
     <description>Recent content in Urban on Atelier da Lari</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>user@example.com (Larissa Nunes da Costa)</managingEditor>
     <webMaster>user@example.com (Larissa Nunes da Costa)</webMaster>
-    <copyright>© Larissa Nunes da Costa</copyright><atom:link href="http://localhost:1313/categories/urban/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Larissa Nunes da Costa</copyright><atom:link href="https://your-domain.com/categories/urban/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/</link>
+      <link>https://your-domain.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Larissa Nunes da Costa)</author>
-      <guid>http://localhost:1313/</guid><description>&lt;no value&gt;</description></item>
+      <guid>https://your-domain.com/</guid><description>&lt;no value&gt;</description></item>
   </channel>
 </rss>

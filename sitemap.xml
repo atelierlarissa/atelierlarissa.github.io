@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://your-domain.com/</loc>
   </url><url>
-    <loc>http://localhost:1313/buy/</loc>
+    <loc>https://your-domain.com/buy/</loc>
   </url><url>
-    <loc>http://localhost:1313/nature/</loc>
+    <loc>https://your-domain.com/nature/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/forestair/</loc>
+    <loc>https://your-domain.com/categories/forestair/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/landscape/</loc>
+    <loc>https://your-domain.com/categories/landscape/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/nature/</loc>
+    <loc>https://your-domain.com/categories/nature/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/urban/</loc>
+    <loc>https://your-domain.com/categories/urban/</loc>
   </url>
 </urlset>
