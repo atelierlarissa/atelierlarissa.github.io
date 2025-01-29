@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://your-domain.com/</loc>
   </url><url>
-    <loc>http://example.org/buy/</loc>
+    <loc>https://your-domain.com/buy/</loc>
   </url><url>
-    <loc>http://example.org/nature/</loc>
+    <loc>https://your-domain.com/nature/</loc>
   </url><url>
-    <loc>http://example.org/categories/forestair/</loc>
+    <loc>https://your-domain.com/categories/forestair/</loc>
   </url><url>
-    <loc>http://example.org/categories/landscape/</loc>
+    <loc>https://your-domain.com/categories/landscape/</loc>
   </url><url>
-    <loc>http://example.org/categories/nature/</loc>
+    <loc>https://your-domain.com/categories/nature/</loc>
   </url><url>
-    <loc>http://example.org/categories/urban/</loc>
+    <loc>https://your-domain.com/categories/urban/</loc>
   </url>
 </urlset>
