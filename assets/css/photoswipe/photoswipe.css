@@ -1,0 +1,74 @@
+/* 🔹 Make sure the close (X) button is properly positioned */
+.pswp__button--close {
+  position: absolute !important;
+  right: 10px !important; /* Rightmost position */
+  top: 10px !important;
+  z-index: 50 !important;
+  padding: 10px !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* 🔹 Make sure the zoom button is correctly placed */
+.pswp__button--zoom {
+  position: absolute !important;
+  right: 50px !important; /* Slightly to the left of close */
+  top: 10px !important;
+  z-index: 50 !important;
+  padding: 10px !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* 🔹 Fix Navigation Arrows */
+.pswp__button--arrow {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  z-index: 50 !important;
+  width: 50px !important;
+  height: 50px !important;
+  -webkit-mask-size: contain !important;
+  mask-size: contain !important;
+  -webkit-mask-repeat: no-repeat !important;
+  mask-repeat: no-repeat !important;
+  background: none !important; /* Ensure no extra background */
+  border: none !important; /* Ensure no border */
+  box-shadow: none !important; /* Ensure no shadow */
+  content: none !important; /* Remove default content */
+}
+
+/* 🔹 Position Left Arrow Correctly */
+.pswp__button--arrow--prev {
+  left: 10px !important; /* Align properly */
+}
+
+/* 🔹 Position Right Arrow Correctly and fix the direction */
+.pswp__button--arrow--next {
+  right: 10px !important; /* Align properly */
+  transform: translateY(-50%) rotate(180deg) !important; /* Rotate it to face the correct direction */
+}
+
+/* 🔹 Fix SVG Icons */
+.pswp__button svg {
+  stroke: #FF6347 !important; /* Change stroke color to tomato (adjust to your preference) */
+  stroke-width: 2px !important; /* Increase the thickness of the stroke */
+  fill: none !important; /* Prevent filling in magnifier cross */
+}
+
+/* Special case: Keep magnifier cross visible */
+.pswp__button--zoom svg circle,
+.pswp__button--zoom svg line {
+  stroke: #FF6347 !important; /* Change to tomato */
+  stroke-width: 2px !important; /* Increase stroke width */
+  fill: none !important;
+  padding: 10px !important;
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.pswp__icn-shadow svg {
+  stroke: #FF6347 !important; /* Change to tomato */
+  stroke-width: 2px !important; /* Increase stroke width */
+  fill: none !important; /* Prevent filling in magnifier cross */
+}

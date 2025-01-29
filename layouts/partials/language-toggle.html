@@ -1,0 +1,40 @@
+<!-- Language Toggle Button -->
+<div class="language-toggle">
+  <button id="language-toggle">EN</button>
+  <div class="ice-block"></div> <!-- This is the sliding block -->
+</div>
+
+<!-- Language Switch Script -->
+<script>
+  // Switch language function
+  function switchLanguage(language) {
+    // Show or hide content based on the selected language
+    const langEnElements = document.querySelectorAll('.lang-en');
+    const langPtElements = document.querySelectorAll('.lang-pt');
+
+    if (language === 'en') {
+      langEnElements.forEach(element => element.style.display = 'block');
+      langPtElements.forEach(element => element.style.display = 'none');
+      localStorage.setItem('language', 'en');
+      document.getElementById('language-toggle').textContent = 'PT'; // Change the button text
+    } else {
+      langEnElements.forEach(element => element.style.display = 'none');
+      langPtElements.forEach(element => element.style.display = 'block');
+      localStorage.setItem('language', 'pt');
+      document.getElementById('language-toggle').textContent = 'EN'; // Change the button text
+    }
+  }
+
+  // On page load, set default language (Portuguese)
+  window.onload = function() {
+    const savedLanguage = localStorage.getItem('language') || 'pt'; // Default to Portuguese if not set
+    switchLanguage(savedLanguage); // Apply the saved language on page load
+  };
+
+  // Toggle language on button click
+  document.getElementById('language-toggle').addEventListener('click', function() {
+    const currentLanguage = localStorage.getItem('language') || 'pt'; // Get the current language from localStorage
+    const newLanguage = currentLanguage === 'pt' ? 'en' : 'pt'; // Toggle between languages
+    switchLanguage(newLanguage); // Switch language
+  });
+</script>

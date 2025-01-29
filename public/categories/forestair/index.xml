@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Forestair on Atelier da Lari</title>
+    <link>http://example.org/categories/forestair/</link>
+    <description>Recent content in Forestair on Atelier da Lari</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>user@example.com (Larissa Nunes da Costa)</managingEditor>
+    <webMaster>user@example.com (Larissa Nunes da Costa)</webMaster>
+    <copyright>© Larissa Nunes da Costa</copyright><atom:link href="http://example.org/categories/forestair/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forest Air 1</title>
+      <link>http://example.org/nature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Larissa Nunes da Costa)</author>
+      <guid>http://example.org/nature/</guid><media:content url="http://example.org/nature/comprar-ufpr_hu13748870903228315308.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;http://example.org/nature/comprar-ufpr_hu13748870903228315308.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>

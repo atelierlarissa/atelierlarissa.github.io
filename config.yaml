@@ -1,0 +1,15 @@
+baseURL: "http://example.org/"
+title: "My Gallery"
+languageCode: "en-us"
+
+module:
+  imports:
+    - path: "github.com/nicokaiser/hugo-theme-gallery/v4"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+params:
+  featured: true  # Optional, depending on the theme's functionality
+
